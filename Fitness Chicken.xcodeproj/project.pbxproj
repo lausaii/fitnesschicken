@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		381F6D182A92C9D90043D844 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F6D172A92C9D80043D844 /* AddView.swift */; };
+		38565D1B2A96DE7300F5C36C /* UpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38565D1A2A96DE7300F5C36C /* UpdateView.swift */; };
+		389E12672A96ED2600EC5502 /* Legend View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389E12662A96ED2600EC5502 /* Legend View.swift */; };
+		389E12692A96F46500EC5502 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389E12682A96F46500EC5502 /* SettingsView.swift */; };
+		389E126B2A96FA7000EC5502 /* AddWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389E126A2A96FA7000EC5502 /* AddWeightView.swift */; };
+		389E126D2A96FBD900EC5502 /* UpdateWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389E126C2A96FBD900EC5502 /* UpdateWeightView.swift */; };
+		38C7B18F2A8C6A2C00829626 /* FitnessChickenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C7B18E2A8C6A2C00829626 /* FitnessChickenApp.swift */; };
+		38C7B1912A8C6A2C00829626 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C7B1902A8C6A2C00829626 /* ContentView.swift */; };
+		38C7B1932A8C6A2F00829626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C7B1922A8C6A2F00829626 /* Assets.xcassets */; };
+		38C7B1962A8C6A2F00829626 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C7B1952A8C6A2F00829626 /* Preview Assets.xcassets */; };
+		38C7B1982A8C6A2F00829626 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C7B1972A8C6A2F00829626 /* Item.swift */; };
+		38C7B19F2A8C6A8B00829626 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C7B19E2A8C6A8B00829626 /* Entry.swift */; };
+		38E8EFFF2AC161CE0075A45B /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E8EFFE2AC161CE0075A45B /* InfoView.swift */; };
+		38FBDD0E2AA7620600DCB875 /* AddGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FBDD0D2AA7620600DCB875 /* AddGoalsView.swift */; };
+		38FBDD102AA764FE00DCB875 /* UpdateGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FBDD0F2AA764FE00DCB875 /* UpdateGoalsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		381F6D172A92C9D80043D844 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		38565D1A2A96DE7300F5C36C /* UpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateView.swift; sourceTree = "<group>"; };
+		389E12662A96ED2600EC5502 /* Legend View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Legend View.swift"; sourceTree = "<group>"; };
+		389E12682A96F46500EC5502 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		389E126A2A96FA7000EC5502 /* AddWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeightView.swift; sourceTree = "<group>"; };
+		389E126C2A96FBD900EC5502 /* UpdateWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateWeightView.swift; sourceTree = "<group>"; };
+		38C7B18B2A8C6A2C00829626 /* Fitness Chicken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitness Chicken.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C7B18E2A8C6A2C00829626 /* FitnessChickenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessChickenApp.swift; sourceTree = "<group>"; };
+		38C7B1902A8C6A2C00829626 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		38C7B1922A8C6A2F00829626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38C7B1952A8C6A2F00829626 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38C7B1972A8C6A2F00829626 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		38C7B19E2A8C6A8B00829626 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		38E8EFFB2AC0866F0075A45B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		38E8EFFE2AC161CE0075A45B /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		38FBDD0D2AA7620600DCB875 /* AddGoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalsView.swift; sourceTree = "<group>"; };
+		38FBDD0F2AA764FE00DCB875 /* UpdateGoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateGoalsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38C7B1882A8C6A2C00829626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38C7B1822A8C6A2C00829626 = {
+			isa = PBXGroup;
+			children = (
+				38C7B18D2A8C6A2C00829626 /* FitnessChicken */,
+				38C7B18C2A8C6A2C00829626 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38C7B18C2A8C6A2C00829626 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38C7B18B2A8C6A2C00829626 /* Fitness Chicken.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38C7B18D2A8C6A2C00829626 /* FitnessChicken */ = {
+			isa = PBXGroup;
+			children = (
+				38E8EFFB2AC0866F0075A45B /* Info.plist */,
+				38C7B18E2A8C6A2C00829626 /* FitnessChickenApp.swift */,
+				38C7B1902A8C6A2C00829626 /* ContentView.swift */,
+				389E12682A96F46500EC5502 /* SettingsView.swift */,
+				38C7B19E2A8C6A8B00829626 /* Entry.swift */,
+				38E8EFFE2AC161CE0075A45B /* InfoView.swift */,
+				389E12662A96ED2600EC5502 /* Legend View.swift */,
+				381F6D172A92C9D80043D844 /* AddView.swift */,
+				389E126A2A96FA7000EC5502 /* AddWeightView.swift */,
+				38FBDD0D2AA7620600DCB875 /* AddGoalsView.swift */,
+				38565D1A2A96DE7300F5C36C /* UpdateView.swift */,
+				389E126C2A96FBD900EC5502 /* UpdateWeightView.swift */,
+				38FBDD0F2AA764FE00DCB875 /* UpdateGoalsView.swift */,
+				38C7B1922A8C6A2F00829626 /* Assets.xcassets */,
+				38C7B1972A8C6A2F00829626 /* Item.swift */,
+				38C7B1942A8C6A2F00829626 /* Preview Content */,
+			);
+			path = FitnessChicken;
+			sourceTree = "<group>";
+		};
+		38C7B1942A8C6A2F00829626 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				38C7B1952A8C6A2F00829626 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38C7B18A2A8C6A2C00829626 /* Fitness Chicken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38C7B19B2A8C6A2F00829626 /* Build configuration list for PBXNativeTarget "Fitness Chicken" */;
+			buildPhases = (
+				38C7B1872A8C6A2C00829626 /* Sources */,
+				38C7B1882A8C6A2C00829626 /* Frameworks */,
+				38C7B1892A8C6A2C00829626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fitness Chicken";
+			productName = NikaCheckIn;
+			productReference = 38C7B18B2A8C6A2C00829626 /* Fitness Chicken.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38C7B1832A8C6A2C00829626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					38C7B18A2A8C6A2C00829626 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 38C7B1862A8C6A2C00829626 /* Build configuration list for PBXProject "Fitness Chicken" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38C7B1822A8C6A2C00829626;
+			productRefGroup = 38C7B18C2A8C6A2C00829626 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38C7B18A2A8C6A2C00829626 /* Fitness Chicken */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38C7B1892A8C6A2C00829626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C7B1962A8C6A2F00829626 /* Preview Assets.xcassets in Resources */,
+				38C7B1932A8C6A2F00829626 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38C7B1872A8C6A2C00829626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FBDD102AA764FE00DCB875 /* UpdateGoalsView.swift in Sources */,
+				389E12672A96ED2600EC5502 /* Legend View.swift in Sources */,
+				389E12692A96F46500EC5502 /* SettingsView.swift in Sources */,
+				38C7B19F2A8C6A8B00829626 /* Entry.swift in Sources */,
+				38565D1B2A96DE7300F5C36C /* UpdateView.swift in Sources */,
+				38E8EFFF2AC161CE0075A45B /* InfoView.swift in Sources */,
+				389E126B2A96FA7000EC5502 /* AddWeightView.swift in Sources */,
+				389E126D2A96FBD900EC5502 /* UpdateWeightView.swift in Sources */,
+				38C7B1912A8C6A2C00829626 /* ContentView.swift in Sources */,
+				381F6D182A92C9D90043D844 /* AddView.swift in Sources */,
+				38C7B1982A8C6A2F00829626 /* Item.swift in Sources */,
+				38C7B18F2A8C6A2C00829626 /* FitnessChickenApp.swift in Sources */,
+				38FBDD0E2AA7620600DCB875 /* AddGoalsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		38C7B1992A8C6A2F00829626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38C7B19A2A8C6A2F00829626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38C7B19C2A8C6A2F00829626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_ASSET_PATHS = "\"FitnessChicken/Preview Content\"";
+				DEVELOPMENT_TEAM = 76JN8G65T5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitnessChicken/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fitness Chicken";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Splash;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = laurence.fitnesschicken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		38C7B19D2A8C6A2F00829626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_ASSET_PATHS = "\"FitnessChicken/Preview Content\"";
+				DEVELOPMENT_TEAM = 76JN8G65T5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitnessChicken/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fitness Chicken";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Splash;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = laurence.fitnesschicken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38C7B1862A8C6A2C00829626 /* Build configuration list for PBXProject "Fitness Chicken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C7B1992A8C6A2F00829626 /* Debug */,
+				38C7B19A2A8C6A2F00829626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38C7B19B2A8C6A2F00829626 /* Build configuration list for PBXNativeTarget "Fitness Chicken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C7B19C2A8C6A2F00829626 /* Debug */,
+				38C7B19D2A8C6A2F00829626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38C7B1832A8C6A2C00829626 /* Project object */;
+}
